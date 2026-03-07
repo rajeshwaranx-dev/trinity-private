@@ -138,6 +138,9 @@ class Bot(Client):
         await super().stop()
         self.LOGGER(__name__).info("Bot stopped.contact @the_universal_being")
 
+if __name__ == "__main__":
+    Bot().run()
+
 # ────────────────────────────────────────────────────────────────
 
 # ✅ THIS PROJECT IS DEVELOPED AND MAINTAINED BY @trinityXmods (TELEGRAM)
